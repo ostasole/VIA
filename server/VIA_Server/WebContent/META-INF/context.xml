@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Context>
+	<Resource 
+	    name="jdbc/via_db" 
+	    auth="Container" 
+	    type="javax.sql.DataSource"
+	    driverClassName="org.postgresql.Driver"
+	    factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+	    username="postgres"
+	    password="postgres"
+	    url="jdbc:postgresql://localhost:5432/via_db"
+	    maxActive="100" 
+	    maxIdle="30" 
+	    maxWait="1000"
+	/>
+</Context>
